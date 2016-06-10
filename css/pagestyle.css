@@ -1,0 +1,145 @@
+body{
+     color: #774c2a;
+     font-family: Arial, Tahoma, Verdana;
+     font-size: 14px;
+     line-height: 200%;
+     overflow-x: hidden;
+     word-wrap: break-word;
+}
+   
+a{
+	color:#17b3d0;
+	text-decoration:none;	
+}
+
+a:hover{
+     color:#17b3d0;
+}
+
+.logo{
+     border-radius: 0.5em;
+     width: 50px;
+     height: 50px;
+     margin-right: 1em;
+     float: left;
+}
+
+hr{
+    border: 2px;
+    border-style: dashed;
+    border-color: #774c2a;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div{
+     font-family:inherit;
+     color: inherit;
+     word-wrap: break-word;
+}
+
+.left{
+     display: inline-block;
+}
+
+.center{
+     display: inline-block;
+     width: 70%;
+}
+
+.right{
+     display: inline-block;
+     text-align: right;
+     float: right;
+     margin-top: 1em;
+     position: static;
+     
+     font-size: 0.9em;
+     font-weight: normal;
+     font-style: italic;
+}
+
+.full{
+     display: inline-block;
+     float: none;
+     margin-left: 4.8em;
+}
+
+.work{
+     margin-bottom: 2em;
+}
+
+.work img{
+     width: 100%;
+}
+/*================================== SKILL ==================================*/
+#skill{
+     border: solid 1px;
+     border-color: lightpink;
+     border-radius: 0.6em;
+     
+     background-color: white;
+               
+     padding: 0em 1.5em;
+     margin-right: 1em;
+     margin-bottom: 1em;
+     
+     font-size: 0.7em;
+     text-transform: uppercase;
+     display: inline-block;
+}
+
+.myphoto{
+     width: 100%;
+     border-radius: 50%;
+     text-align: center;
+     
+     -webkit-filter: grayscale(0);
+     filter: grayscale(0);
+
+}
+
+.sns{
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     margin: 0 2%;
+     
+     -webkit-filter: grayscale(0);
+     filter: grayscale(0);
+}
+/*================================== IMAGE ==================================*/
+img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: -webkit-filter .5s ease-in-out;
+    -moz-transition: -webkit-filter .5s ease-in-out;
+    -webkit-transition: -webkit-filter .5s ease-in-out;
+}
+
+/*================================ SCROLLBAR ================================*/
+::-webkit-scrollbar {
+    width: 7px;
+
+}
+ 
+.scroller::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+     background: pink; 
+}
+
+
+::-webkit-scrollbar-thumb:window-inactive {
+     visibility: hidden;
+}
