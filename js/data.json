@@ -39,7 +39,7 @@
                "area": "Bothell, WA",
                "logo": "image/Logo_UW.png",
                "site": "https://depts.washington.edu/cmmr/GTCS/",
-               "description": "Work on creation of a functional API for a tower defense game, Hug the Line, to use in teaching beginner-level coding concepts. In addition, write and refine lesson plan materials to support over 30 hours of instruction to teach java programming using the functional API to middle school aged students.",
+               "description": "Work on creation of a functional API for a tower defense game, Hug the Line, to use in teaching beginner-level coding concepts. In addition, write and refine lesson plan materials to support over 30 hours of instruction to teach java programming using the functional API to middle school aged students.<br><br> In Summer 2016, I was the representative of the University of Washington to work with Pacific Science Center as a Tech/Programming Teacher for the Java Coding and Video Games Summer Camp 2016. I taught approximately 40 middle school students using the material developed by myself and my team.",
                "skill": ["Java", "GIT", "Word Processor"]
           },
           {
@@ -104,6 +104,12 @@
           }
      ],
      "work": [
+         {
+               "name": "Crow Invaders",
+               "image": "image/Word_CrowInvaders.jpg",
+               "description": "is a recreation of Space Invadres with the University of Washington, Bothell, theme developed by a team of students. I served as analyst and architect who was responsible for designing necessary architectures for the project such as wireframes, use case diagrams/descriptions, activity diagrams, data flow diagrams, robustness diagrams, and etc.",
+               "skill": ["Word Processor", "Photoshop", "draw.io"]
+          }, 
           {
                "name": "Farm House",
                "image": "image/Work_FramSim.png",
