@@ -85,7 +85,7 @@
                "title": "Sale Associate",
                "time": "April 2015 - September 2015",
                "area": "Seattle, WA",
-               "logo": "image/Logo_Papaya.png",
+               "logo": "image/Logo_PAPAYA.png",
                "site": "https://www.papayaclothing.com",
                "description": "Assisted customers with questions and concerns about products. Handled sales transactions courteously and professionally, including operating cash registers and handling all exchanges and returns. Sustained a neat, clean, organized, safe, and friendly shopping environment. Supervised and trained new employees",
                "skill": []
@@ -111,7 +111,7 @@
           {
                "name": "UW IAS",
                "image": "image/Work_HealthApp.png",
-               "description": "is an iPhone health application that analyzes users’ stress level. Worked with a research team that focuses on Mobile Health Application. I was responsible for studying UX/UI UX/UI for health application smartphone and PDAs, and as well implementing the interface for the application.",
+               "description": "is an iPhone health application that analyzes users’ stress level. Worked with a research team that focuses on Mobile Health Application. I was responsible for doing a research about UX/UI for health application smartphone and PDAs, and as well studying objective-c programming language in order to implement the interface for the application.",
                "skill": ["Objective-C"]
           }, 
           {
