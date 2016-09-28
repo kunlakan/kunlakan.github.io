@@ -7,7 +7,8 @@
               "area": "Bothell, WA",
               "logo": "image/Logo_UW.png",
               "site": "https://washington.edu",
-              "course": ["Technical Writing for Computing Professionals", "Programming Issues with Object-Oriented Languages (C++)", "Data Structures, Algorithms, and Discrete Mathematics I (C++)", "Data Structures, Algorithms, and Discrete Mathematics II (C++)", "Software Engineering", "Analysis and Design", "Hardware and Computer Organization", "Operating Systems", "3-D Computer Graphic", "Database Systems", "K-12 Computing Education", "Fundamentals of Web Media Technology", "Fundamentals of Modern Mathematics", "Matrix Algebra", "Multivariable Calculus"]
+              "course": ["Technical Writing for Computing Professionals", "Programming Issues with Object-Oriented Languages (C++)", "Data Structures, Algorithms, and Discrete Mathematics I (C++)", "Data Structures, Algorithms, and Discrete Mathematics II (C++)", "Software Engineering", "Analysis and Design", "Hardware and Computer Organization", "Operating Systems", "3-D Computer Graphic", "Database Systems", "K-12 Computing Education", "Fundamentals of Web Media Technology", "Fundamentals of Modern Mathematics", "Matrix Algebra", "Multivariable Calculus"],
+              "honor": ["Dean's List, Winter 2015 - Present"]
           }, 
           {
                 "name": "North Seattle College",
@@ -16,7 +17,8 @@
                 "area": "Seattle, WA",
                 "logo": "image/Logo_NSCC.png",
                 "site": "https://northseattle.edu",
-                "course": ["Introduction to Computer Programming (Python)", "Computer Programming I (Java)", "Computer Programming II (Java)", "Computer Art (ART210)", "Calculus I", "Calculus II", "Calculus III", "Differential Equations", "Engineering Physic I", "Engineering Physic II"]
+                "course": ["Introduction to Computer Programming (Python)", "Computer Programming I (Java)", "Computer Programming II (Java)", "Computer Art (ART210)", "Calculus I", "Calculus II", "Calculus III", "Differential Equations", "Engineering Physic I", "Engineering Physic II"],
+                "honor": ["President's List, Winter 2012 - Spring 2014", "Education Fund Scholarship, Fall 2013 - Spring 2014"]
           },
           {
                 "name": "Horwang School",

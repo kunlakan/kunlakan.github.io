@@ -17,7 +17,15 @@ jQuery.getJSON("js/data.json", function(data){
                });
                str += "</ul></div>";
           }
-          
+         
+          if(school[i].honor.length > 0){
+               str += "<div class='full'>Honors & Awards:<ul>";
+               school[i].honor.forEach(function(honorname){
+                    str += "<li>" + honorname + "</li>";
+               });
+               str += "</ul></div>";
+          }
+         
           if(i != school.length - 1){
                str += "<hr>";
           }
