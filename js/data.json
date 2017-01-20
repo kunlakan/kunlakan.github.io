@@ -3,12 +3,12 @@
           {
               "name": "University of Washington",
               "degree": "Computer Science and Software Engineer, Minor Mathematics, B.S.",
-              "graduation": "2014-2016",
+              "graduation": "2014 - 2016",
               "area": "Bothell, WA",
               "logo": "image/Logo_UW.png",
               "site": "https://washington.edu",
-              "course": ["Technical Writing for Computing Professionals", "Programming Issues with Object-Oriented Languages (C++)", "Data Structures, Algorithms, and Discrete Mathematics I (C++)", "Data Structures, Algorithms, and Discrete Mathematics II (C++)", "Software Engineering", "Analysis and Design", "Hardware and Computer Organization", "Operating Systems", "3-D Computer Graphic", "Database Systems", "K-12 Computing Education", "Fundamentals of Web Media Technology", "Fundamentals of Modern Mathematics", "Matrix Algebra", "Multivariable Calculus"],
-              "honor": ["Dean's List, Winter 2015 - Present"]
+              "course": ["Technical Writing for Computing Professionals", "Programming Issues with Object-Oriented Languages (C++)", "Data Structures, Algorithms, and Discrete Mathematics I (C++)", "Data Structures, Algorithms, and Discrete Mathematics II (C++)", "Management Principles", "Software Engineering", "Analysis and Design", "Hardware and Computer Organization", "Operating Systems", "3-D Computer Graphic", "Database Systems", "Bioinformatics", "Computer Vision", "K-12 Computing Education", "Fundamentals of Web Media Technology", "Fundamentals of Modern Mathematics", "Matrix Algebra", "Multivariable Calculus"],
+              "honor": ["Dean's List, Winter 2015 - Fall 2016"]
           }, 
           {
                 "name": "North Seattle College",
@@ -138,7 +138,7 @@
      "about": {
           "picture": "image/Me.jpg",
           "head": "I'm a Software Developer from Seattle, WA, with a passion for design.",
-          "description": "I am passionate in developing softwares or tools that make lives of others better and giving them a deeper connection to technology. When I am not coding, I love to ice skate and eat a lot of chocolate ♥<br>",
+          "description": "I am passionate in developing softwares or tools that make lives of others better and giving them a deeper connection to technology. When I am not coding, I love to ice skate, dance, and eat a lot of chocolate ♥<br>",
           "linkedin": "https://www.linkedin.com/in/kunlakan",
           "resume": "media/Resume.pdf",
           "email": "kunlakan (at) uw.edu"
