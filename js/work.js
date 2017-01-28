@@ -1,9 +1,13 @@
 jQuery.getJSON("js/data.json", function(data){
-     var str = "";
+     var str = "<div class='row'>";
      var work = data["work"];
      
      for(var i = 0; i < work.length; i++) {
-          str += "<div class='col-sm-6 col-lg-4 work'><div><img src='" + work[i].image + "'></div>";
+          if(i%2 == 0){
+               str+= "<div class='col-sm-4'><div class='row'>";
+          }
+          
+          str += "<div class='col-md-12 work'><div><img src='" + work[i].image + "'></div>";
           str += "<div><b>" + work[i].name + "</b> ";
           str += work[i].description + "</div>";
           
@@ -14,9 +18,14 @@ jQuery.getJSON("js/data.json", function(data){
                });
           }
           
-          str += "</div>";
+          str += "</div></div>";
           
-          $("body").append(str);
-          str = "";
+          if(i%2 == 1){
+               str += "</div></div>";
+          }
       }
+     
+     str += "</div>"
+     $("body").append(str);
+     
 });

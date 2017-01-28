@@ -104,6 +104,12 @@
           }
      ],
      "work": [
+          {
+               "name": "Are You A Potato Drawer?",
+               "image": "image/Work_AreYouAPotatoDrawer.png",
+               "description": "is a program/game that recognizes shapes drawn by the user by using computer vision techniques. I served as a lead developer designing and implementing the shape detector element that detects 8 different geometric shapes and 3 basic shapes (such as heart, starts, and thunderbolts).",
+               "skill": ["C++", "OpenCV"]
+          }, 
          {
                "name": "Crow Invaders",
                "image": "image/Word_CrowInvaders.jpg",
