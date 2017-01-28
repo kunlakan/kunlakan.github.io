@@ -3,7 +3,7 @@
           {
               "name": "University of Washington",
               "degree": "Computer Science and Software Engineer, Minor Mathematics, B.S.",
-              "graduation": "2014 - 2016",
+              "graduation": "2014 - 2017",
               "area": "Bothell, WA",
               "logo": "image/Logo_UW.png",
               "site": "https://washington.edu",
@@ -33,9 +33,19 @@
      
      "job":[
           {
+               "name": "North Seattle",
+               "title": "Computer Science and Mathematics Tutor",
+               "time": "April 2015 - Present",
+               "area": "Seattle, WA",
+               "logo": "image/Logo_NSCC.png",
+               "site": "http://webshare.northseattle.edu/MLC/",
+               "description": "Assist students 1:1 with concepts and assignment according to individual strengths, and as well offer assistance with developing study strategies and techniques. Lastly, represent the institution in collaborating with e-tutoring, online tutoring platform.",
+               "skill": ["Java", "Python", "C++", "C#", "HTML", "CSS", "javaScript", "Algebra", "Pre-Calculus", "Calculus"]
+          },
+          {
                "name": "University of Washington",
                "title": "Undergraduate Reserach Assistant",
-               "time": "March 2016 - Present",
+               "time": "March 2016 - December 2016",
                "area": "Bothell, WA",
                "logo": "image/Logo_UW.png",
                "site": "https://depts.washington.edu/cmmr/GTCS/",
@@ -45,7 +55,7 @@
           {
                "name": "University of Washington",
                "title": "Undergraduate Reserach Assistant",
-               "time": "January 2016 - Present",
+               "time": "January 2016 - December 2016",
                "area": "Bothell, WA",
                "logo": "image/Logo_UW.png",
                "site": "https://washington.edu",
@@ -61,16 +71,6 @@
                "site": "http://faculty.washington.edu/geetha/research.html",
                "description": "Work with a research group that focuses Mobile Health Application to develop an iPhone health application that analyzes users’ stress level. Research and study best practices with Objective-C, the security aspect of mobile application, and also the UX/UI design for health application smartphone and PDAs.",
                "skill": ["Objective-C", "GIT"]
-          },
-          {
-               "name": "North Seattle",
-               "title": "Computer Science and Mathematics Tutor",
-               "time": "April 2015 - Present",
-               "area": "Seattle, WA",
-               "logo": "image/Logo_NSCC.png",
-               "site": "http://webshare.northseattle.edu/MLC/",
-               "description": "Assist students 1:1 with concepts and assignment according to individual strengths, and as well offer assistance with developing study strategies and techniques. Lastly, represent the institution in collaborating with e-tutoring, online tutoring platform.",
-               "skill": ["Java", "Python", "C++", "C#", "HTML", "CSS", "javaScript", "Algebra", "Pre-Calculus", "Calculus"]
           },
           {
                "name": "University of Washington",
@@ -121,6 +121,12 @@
                "image": "image/Work_FramSim.png",
                "description": "is a 3D world and simulation that I and a few friends created for a bit of fun. The theme was a modern house in a farmland, inspired by <a href='http://www.inouesatoru.jp/221/' target='_blank'>雲海に浮かぶ箱舟</a>. I was responsible for 3D modeling the house, animating and creating features of the house, and as well implementing gaming control.",
                "skill": ["C#", "Unity", "SketchUp", "Photoshop"]
+          }, 
+          {
+               "name": "Disassembler",
+               "image": "image/Work_Disassembler.png",
+               "description": "is a program that translates machine language into assembly language. I served as a developer who designed and developed 30 instructions decoders, the project leader for team by developing project plans, scheduling regular team meetings, and monitoring progress along with tracking task-completion, and a tester by created test cases, tested the software, and constantly updated testing reports.",
+               "skill": ["68000 Assembly Language"]
           }, 
           {
                "name": "UW IAS",
