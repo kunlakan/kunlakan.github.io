@@ -40,7 +40,6 @@ $("#menu div").mouseout(function () {
 
 $("h1").click(function () {
      $("iframe").attr("src", "work.html");
-     autoResize();
 });
 
 
