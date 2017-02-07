@@ -9,15 +9,17 @@
     <div class="col-xs-9" id="page">
          <div id="title"></div>
         <div class="col-xs-12" id="menu"></div>
-         <div id="iframe">
-               <iframe onload="this.style.height=this.contentDocument.body.scrollHeight +'px';"></iframe>
-          </div>
+         <iframe scroll="no" id="iFrameResizer0" onload="autoResize())"></iframe>
+          
         <div id="footer"></div>
     </div>
     
-    <!-- Import jQuery -->
+    <!-- Import jQuery-->
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
-    
+     
+    <script type="text/javascript" src="https://raw.githubusercontent.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.min.js"></script>
+     <script type="https://raw.githubusercontent.com/davidjbradshaw/iframe-resizer/master/js/iframeResizer.contentWindow.min.js"></script>
+     
     <script type="text/javascript" src="js/index.js"></script>
     <!--<audio src="theme/Roses.mp3" autoplay loop></audio>-->
 </body>
