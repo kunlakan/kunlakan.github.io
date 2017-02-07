@@ -7,7 +7,13 @@ jQuery.getJSON("js/data.json", function(data){
                str+= "<div class='col-sm-4'><div class='row'>";
           }
           
-          str += "<div class='col-md-12 work'><div><img src='" + work[i].image + "'></div>";
+          str += "<div class='col-md-12 work'><div>";
+          
+          if(work[i].site != "")
+                str += "<a href='" + work[i].site + "' target='_blank'><img src='" + work[i].image + "'></a></div>";
+          else
+               str += "<img src='" + work[i].image + "'></div>";
+          
           str += "<div><b>" + work[i].name + "</b> ";
           str += work[i].description + "</div>";
           
