@@ -7,7 +7,6 @@ body{
     font-size: 14px;
     line-height: 200%;
      overflow-x: hidden;
-
 }
   
 
@@ -46,9 +45,6 @@ h1{
 iframe{
      width: 100%;
      border: 0;
-}
-
-#iframe{
 }
 
 #page{

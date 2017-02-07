@@ -26,10 +26,6 @@ function run() {
      });
 }
 
-function autoResize(iframe) {
-     $(iframe).height($(iframe).contents().find('html').height() + 24);
-}
-
 $("#menu div").mouseover(function () {
      $(this).animate({fontSize: "1.1em"}, 150);
 });
@@ -40,6 +36,7 @@ $("#menu div").mouseout(function () {
 
 $("h1").click(function () {
      $("iframe").attr("src", "work.html");
+     autoResize();
 });
 
 
