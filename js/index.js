@@ -36,9 +36,7 @@ $("#menu div").mouseout(function () {
 
 $("h1").click(function () {
      $("iframe").attr("src", "work.html");
-     autoResize();
 });
-
 
 $("#menu div").click(function () {
      var url = $(this).text();
@@ -55,5 +53,7 @@ $("#menu div").click(function () {
           
      });
 });
+
+$("iframe").height($(window).height() - ($(window).height() * 0.32));
 
 run();

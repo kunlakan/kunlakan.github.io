@@ -124,7 +124,7 @@ img:hover{
 }
 
 /*================================ SCROLLBAR ================================*/
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 7px;
 
 }
@@ -142,4 +142,4 @@ img:hover{
 
 ::-webkit-scrollbar-thumb:window-inactive {
      visibility: hidden;
-}*/
+}
