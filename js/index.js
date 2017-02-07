@@ -13,6 +13,7 @@ menu.forEach(function (i) {
 });
 
 $("iframe").attr("src", "work.html");
+$('iframe').height( $('iframe').contents().outerHeight() );
 
 $("#footer").text("© 2016 Kunlakan Cherdchusilp");
 
@@ -44,6 +45,7 @@ $("#menu div").click(function () {
      $("iframe").fadeOut(500, function(){
           $("iframe").attr("src", url);
           $("iframe").fadeIn(1000);
+          
      })
 });
 
