@@ -1,3 +1,5 @@
+
+
 body{
     background-image: url(../image/bg.gif);
     background-repeat: repeat;
@@ -33,11 +35,10 @@ h1{
 #menu{ 
      background-image: url(../image/headbg.gif);
      margin-bottom: 2%;
-     height: 2em;
     
      font-family: Century Gothic;
      font-weight: normal;
-     font-size: 1.1em;
+     font-size: 1.3em;
      color: white;
      text-align: center;
 }
@@ -69,4 +70,12 @@ iframe{
     font-size: 0.7em;
     color: gray;
     
+}
+
+/*============================== MEDIA QUERIES ==============================*/
+
+@media only screen and (max-width: 768px) {
+     h1{ 
+          font-size: 2.5em;
+     }
 }

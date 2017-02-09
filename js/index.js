@@ -9,7 +9,7 @@ $("#title").append(title);
 $("#title").append(htitle);
 
 menu.forEach(function (i) {
-     $("#menu").append("<div class='col-xs-3'>" + i + "</div>");
+     $("#menu").append("<div class='col-xs-6 col-md-3'>" + i + "</div>");
 });
 
 $("iframe").attr("src", "work.html");

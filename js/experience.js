@@ -7,8 +7,8 @@ jQuery.getJSON("js/data.json", function(data){
           str += "<img src='" + job[i].logo +"' class='logo'></a>";
           str += "<div class='right'>" + job[i].time + "<br>";
           str += job[i].area + "</div>";
-          str += "<div class='col-xs-10 center'><h3>" + job[i].name + "<br>";
-          str += job[i].title + "</h3></div></div>";
+          str += "<div class='col-xs-12 center'><h4>" + job[i].name + "<br>";
+          str += job[i].title + "</h4></div></div>";
           str += "<div class='col-xs-12 full'>" + job[i].description + "</div>";
           
           if(job[i].skill.length > 0){
