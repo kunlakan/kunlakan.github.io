@@ -1,12 +1,12 @@
-var title = "<div class='col-xs-11'><h1>KUNLAKAN<br>CHERDCHUSILP</h1></div>";
-var htitle = "<div class='col-xs-1'><span id='heart'>&hearts;</span><div>";
+var title = "<div id='titleName'><h1>KUNLAKAN<br>CHERDCHUSILP</h1></div>";
+var htitle = "<span id='heart'>&hearts;</span>";
 var menu = ["work", "experience", "education", "me"];
 
 
 /*================================ LOAD DATA ================================*/
 
-$("#title").append(title);
 $("#title").append(htitle);
+$("#title").append(title);
 
 menu.forEach(function (i) {
      $("#menu").append("<div class='col-xs-6 col-md-3'>" + i + "</div>");
@@ -14,14 +14,14 @@ menu.forEach(function (i) {
 
 $("iframe").attr("src", "work.html");
 
-$("#footer").text("© 2016 Kunlakan Cherdchusilp");
+$("#footer").append(" 2016 Kunlakan Cherdchusilp");
 
 
 /*================================= EFFECTS =================================*/
 function run() {
      var heart = $("#heart");
-     heart.animate({fontSize: "7.5vw"}, 400, function () {
-          $("#heart").animate({fontSize: "8.5vw"}, 400);
+     heart.animate({fontSize: "7vw"}, 400, function () {
+          $("#heart").animate({fontSize: "8vw"}, 400);
           run();
      });
 }
@@ -54,6 +54,6 @@ $("#menu div").click(function () {
      });
 });
 
-$("iframe").height($(window).height() - ($(window).height() * 0.32));
+//$("iframe").height($(window).height() - ($(window).height() * 0.32));
 
 run();

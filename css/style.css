@@ -8,7 +8,7 @@ body{
     font-family: Arial, Tahoma, Verdana;
     font-size: 14px;
     line-height: 200%;
-     overflow-x: hidden;
+     overflow: hidden;
 }
   
 
@@ -25,11 +25,15 @@ h1{
      font-weight: normal;
 }
 
+#titleName{
+     padding-right: 6vw;
+}
+
 #heart{
-     margin-top: 0.2em;
-     font-size: 8.5vw;
+     font-size: 8vw;
      float: right;
      color: #654321;
+     padding-top: 1vh;
 }
 
 #menu{ 
@@ -45,6 +49,7 @@ h1{
 
 iframe{
      width: 100%;
+     height: 65vh;
      border: 0;
 }
 
