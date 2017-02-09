@@ -4,10 +4,10 @@ jQuery.getJSON("js/data.json", function(data){
      
      for(var i = 0; i < work.length; i++) {
           if(i%2 == 0){
-               str+= "<div class='col-sm-4'><div class='row'>";
+               str+= "<div class='col-sm-12 col-lg-4'><div class='row'>";
           }
           
-          str += "<div class='col-md-12 work'><div><img src='" + work[i].image + "'></div>";
+          str += "<div class='col-xs-12 work'><div><img src='" + work[i].image + "'></div>";
           
           if(work[i].site != "")
                  str += "<div><b><a href='" + work[i].site + "' target='_blank'>" + work[i].name + "</a></b> ";
