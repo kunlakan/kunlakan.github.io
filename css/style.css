@@ -9,7 +9,6 @@ body{
     font-size: 14px;
     line-height: 200%;
      overflow: hidden;
-     cursor: pointer;
 }
   
 
@@ -28,6 +27,7 @@ h1{
 
 #titleName{
      padding-right: 7vw;
+     cursor: pointer;
 }
 
 #heart{
@@ -46,6 +46,7 @@ h1{
      font-size: 1.3em;
      color: white;
      text-align: center;
+     cursor: pointer;
 }
 
 iframe{
