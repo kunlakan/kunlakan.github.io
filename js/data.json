@@ -45,7 +45,7 @@
           },
           {
                "name": "University of Washington",
-               "title": "Undergraduate Reserach Assistant",
+               "title": "Undergraduate Research Assistant",
                "time": "March 2016 - December 2016",
                "area": "Bothell, WA",
                "logo": "image/Logo_UW.png",
@@ -55,17 +55,17 @@
           },
           {
                "name": "University of Washington",
-               "title": "Undergraduate Reserach Assistant",
+               "title": "Undergraduate Research Assistant",
                "time": "January 2016 - December 2016",
                "area": "Bothell, WA",
                "logo": "image/Logo_UW.png",
                "site": "https://washington.edu",
-               "description": "Reserach and study the efficient strategy in finding protein network motifs, and as well implement a network motif detection software using c++ and python integrating with SQL. Detection of network motifs is computationally expensive, and speeding up the process using database engines will improve its usability in biology.",
+               "description": "Research and study the efficient strategy in finding protein network motifs, and as well implement a network motif detection software using c++ and python integrating with SQL. Detection of network motifs is computationally expensive, and speeding up the process using database engines will improve its usability in biology.",
                "skill": ["Python", "C++", "SQL", "Git"]
           },
           {
                "name": "University of Washington",
-               "title": "Undergraduate Reserach Assistant",
+               "title": "Undergraduate Research Assistant",
                "time": "January 2015 - Present",
                "area": "Bothell, WA",
                "logo": "image/Logo_UW.png",
