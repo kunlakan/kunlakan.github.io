@@ -17,13 +17,12 @@ a{
 }
 
 /*================================= HEADER ==================================*/
-#titleName h1{     
+h1{     
      font-family: Century Gothic;
      font-size: 3.5em;
      color: #654321;
      text-align: right;
      font-weight: normal;
-     cursor: pointer;
 }
 
 #titleName{
