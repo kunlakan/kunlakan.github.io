@@ -32,10 +32,11 @@ $("#hamberger").on("click", function () {
 
 $("li").click(function () {
      var url = $(this).text();
+     url = url.toLocaleLowerCase();
      
-     if (url === "Me") {
+     if (url === "me") {
           url = "about";
-     } else if (url === "Home") {
+     } else if (url === "home") {
           url = "main";
      }
     
