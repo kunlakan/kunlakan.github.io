@@ -1,48 +1,42 @@
-var title = "<div id='titleName'><h1>KUNLAKAN<br>CHERDCHUSILP</h1></div>";
-var htitle = "<span id='heart'>&hearts;</span>";
-var menu = ["work", "experience", "education", "me"];
-
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
 
 /*================================ LOAD DATA ================================*/
 
-$("#title").append(htitle);
-$("#title").append(title);
-
-menu.forEach(function (i) {
-     $("#menu").append("<div class='col-xs-6 col-md-3'>" + i + "</div>");
+jQuery.getJSON("js/data.json", function (data) {
+     var title = data.title;
+     
+     $("#title").append("<h1 id='title'>" + title.title + "</h1>");
+     $("#title").append("<h1 id='subtitle'>" + title.subtitle + "</h1>");
 });
 
-$("iframe").attr("src", "work.html");
+$("iframe").attr("src", "main.html");
 
-$("#footer").append(" 2016 Kunlakan Cherdchusilp");
+$("#footer").append("&copy; 2016 - 2018 Kunlakan Cherdchusilp");
 
 
 /*================================= EFFECTS =================================*/
-function run() {
-     var heart = $("#heart");
-     heart.animate({fontSize: "7vw"}, 400, function () {
-          $("#heart").animate({fontSize: "8vw"}, 400);
-          run();
-     });
-}
 
-$("#menu div").mouseover(function () {
-     $(this).animate({fontSize: "1.1em"}, 150);
+$("#menu a").mouseover(function () {
+     $(this).css("color", "white");
 });
 
-$("#menu div").mouseout(function () {
-     $(this).animate({fontSize: "1em"}, 150);
+$("#menu a").mouseout(function () {
+     $(this).css("color", "#c2c2c2");
 });
 
-$("h1").click(function () {
-     $("iframe").attr("src", "work.html");
+$("#hamberger").on("click", function () {
+     $("nav").toggleClass("clicked");
+     $("#page").toggleClass("clicked");
 });
 
-$("#menu div").click(function () {
+$("li").click(function () {
      var url = $(this).text();
      
-     if (url === "me") {
+     if (url === "Me") {
           url = "about";
+     } else if (url === "Home") {
+          url = "main";
      }
     
      url += ".html";
@@ -54,6 +48,4 @@ $("#menu div").click(function () {
      });
 });
 
-//$("iframe").height($(window).height() - ($(window).height() * 0.32));
-
-run();
+document.querySelector("#hamberger").addEventListener("click", function () {this.classList.toggle("active"); });

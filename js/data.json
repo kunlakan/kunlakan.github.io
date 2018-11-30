@@ -1,4 +1,9 @@
 {
+     "title":
+     {
+          "title": "Kunlakan (Jeen) Cherdchusilp",
+          "subtitle": "Software Engineer"
+     },
      "school": [
           {
               "name": "University of Washington",
@@ -34,54 +39,56 @@
      
      "job":[
           {
+               "name": "Airship Industries",
+               "logo": "image/Logo_Airship.png",
+               "area": "Redmond, WA",
+               
+               "group":{
+               }
+          },
+          {
                "name": "North Seattle",
-               "title": "Computer Science and Mathematics Tutor",
-               "time": "April 2015 - Present",
-               "area": "Seattle, WA",
                "logo": "image/Logo_NSCC.png",
-               "site": "http://webshare.northseattle.edu/MLC/",
-               "description": "Assist students 1:1 with concepts and assignment according to individual strengths, and as well offer assistance with developing study strategies and techniques. Lastly, represent the institution in collaborating with e-tutoring, online tutoring platform.",
-               "skill": ["Java", "Python", "C++", "C#", "HTML", "CSS", "javaScript", "Algebra", "Pre-Calculus", "Calculus"]
+               "area": "Seattle, WA",
+
+               "groups": {
+                    "title": "Computer Science and Mathematics Tutor",
+                    "time": "April 2015 - Present",
+                    "site": "http://webshare.northseattle.edu/MLC/",
+                    "description": "Assist students 1:1 with concepts and assignment according to individual strengths, and as well offer assistance with developing study strategies and techniques. Lastly, represent the institution in collaborating with e-tutoring, online tutoring platform.",
+                    "skill": ["Java", "Python", "C++", "C#", "HTML", "CSS", "javaScript", "Algebra", "Pre-Calculus", "Calculus"]
+               }
           },
           {
                "name": "University of Washington",
-               "title": "Undergraduate Research Assistant",
-               "time": "March 2016 - December 2016",
-               "area": "Bothell, WA",
                "logo": "image/Logo_UW.png",
-               "site": "https://depts.washington.edu/cmmr/GTCS/",
-               "description": "Work on creation of a functional API for a tower defense game, Hug the Line, to use in teaching beginner-level coding concepts. In addition, write and refine lesson plan materials to support over 30 hours of instruction to teach java programming using the functional API to middle school aged students.<br><br> In Summer 2016, I was the representative of the University of Washington to work with Pacific Science Center as a Tech/Programming Teacher for the Java Coding and Video Games Summer Camp 2016. I taught approximately 40 middle school students using the material developed by myself and my team.",
-               "skill": ["Java", "GIT", "Word Processor"]
-          },
-          {
-               "name": "University of Washington",
-               "title": "Undergraduate Research Assistant",
-               "time": "January 2016 - December 2016",
                "area": "Bothell, WA",
-               "logo": "image/Logo_UW.png",
-               "site": "https://washington.edu",
-               "description": "Research and study the efficient strategy in finding protein network motifs, and as well implement a network motif detection software using c++ and python integrating with SQL. Detection of network motifs is computationally expensive, and speeding up the process using database engines will improve its usability in biology.",
-               "skill": ["Python", "C++", "SQL", "Git"]
-          },
-          {
-               "name": "University of Washington",
-               "title": "Undergraduate Research Assistant",
-               "time": "January 2015 - Present",
-               "area": "Bothell, WA",
-               "logo": "image/Logo_UW.png",
-               "site": "http://faculty.washington.edu/geetha/research.html",
-               "description": "Work with a research group that focuses Mobile Health Application to develop an iPhone health application that analyzes users’ stress level. Research and study best practices with Objective-C, the security aspect of mobile application, and also the UX/UI design for health application smartphone and PDAs.",
-               "skill": ["Objective-C", "GIT"]
-          },
-          {
-               "name": "University of Washington",
-               "title": "Teaching Assistant",
-               "time": "September 2015 - December 2015",
-               "area": "Bothell, WA",
-               "logo": "image/Logo_UW.png",
-               "site": "https://washington.edu",
-               "description": "Performed duties and tasks that are instructed by the Professor. Mainly, responsibled in evaluating and grade assignments, quizzes, examinations, and record grades. But, also assisted the Professor in designing the course, preparing materials for the class, and also observing the class’s understanding of the course material according to their performance in the assignments.",
-               "skill": ["SQL"]
+
+               "groups": {
+                    "title": "Undergraduate Research Assistant",
+                    "time": "March 2016 - December 2016",
+                    "site": "https://depts.washington.edu/cmmr/GTCS/",
+                    "description": "Work on creation of a functional API for a tower defense game, Hug the Line, to use in teaching beginner-level coding concepts. In addition, write and refine lesson plan materials to support over 30 hours of instruction to teach java programming using the functional API to middle school aged students.<br><br> In Summer 2016, I was the representative of the University of Washington to work with Pacific Science Center as a Tech/Programming Teacher for the Java Coding and Video Games Summer Camp 2016. I taught approximately 40 middle school students using the material developed by myself and my team.",
+                    "skill": ["Java", "GIT", "Word Processor"],
+               
+                    "title": "Undergraduate Research Assistant",
+                    "time": "January 2016 - December 2016",
+                    "site": "https://washington.edu",
+                    "description": "Research and study the efficient strategy in finding protein network motifs, and as well implement a network motif detection software using c++ and python integrating with SQL. Detection of network motifs is computationally expensive, and speeding up the process using database engines will improve its usability in biology.",
+                    "skill": ["Python", "C++", "SQL", "Git"],
+               
+                    "title": "Undergraduate Research Assistant",
+                    "time": "January 2015 - Present",
+                    "site": "http://faculty.washington.edu/geetha/research.html",
+                    "description": "Work with a research group that focuses Mobile Health Application to develop an iPhone health application that analyzes users’ stress level. Research and study best practices with Objective-C, the security aspect of mobile application, and also the UX/UI design for health application smartphone and PDAs.",
+                    "skill": ["Objective-C", "GIT"], 
+                    
+                    "title": "Teaching Assistant",
+                    "time": "September 2015 - December 2015",
+                    "site": "https://washington.edu",
+                    "description": "Performed duties and tasks that are instructed by the Professor. Mainly, responsibled in evaluating and grade assignments, quizzes, examinations, and record grades. But, also assisted the Professor in designing the course, preparing materials for the class, and also observing the class’s understanding of the course material according to their performance in the assignments.",
+                    "skill": ["SQL"]
+               }
           },
           {
                "name": "Papaya Clothing",

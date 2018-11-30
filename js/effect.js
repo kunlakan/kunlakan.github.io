@@ -1,7 +1,7 @@
 $("body").on("mouseover", "#skill", function () {
-     $(this).animate({backgroundColor: 'lightpink'}, 250);
+     $(this).animate({backgroundColor: 'white'}, 250);
 });
 
 $("body").on("mouseout", "#skill", function () {
-     $(this).animate({backgroundColor: 'white'}, 250);
+     $(this).animate({backgroundColor: 'transparent'}, 250);
 });
