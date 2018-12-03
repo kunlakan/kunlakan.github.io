@@ -3,7 +3,6 @@
 
 var work;
 var pagenum = 0;
-var scroll = 0;
 
 function page(pagenum) {
      "use strict";
@@ -79,24 +78,56 @@ $("div.dotstyle").on('click', 'li', function () {
           page(pagenum); }, 2100);
 });
 
-$(window).scroll(function (event) {
-     var st = $(this).scrollTop();
+$(window).bind('wheel', function (event) {
+     var isnext = false;
      
-     if (st > scroll)
-     {
-          pagenum += 1;
+     if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+          if(pagenum > 0) {
+               pagenum -= 1;
+               isnext = true;
+          }
      } else {
-          pagenum -= 1;
+          if(pagenum < work.length - 1) {
+               pagenum += 1;
+               console.log(pagenum);
+               isnext = true;
+          }
      }
      
-     $("div.dotstyle li").removeClass("current");
-     $('div.dotstyle li:contains(' + pagenum + ')').toggleClass("current");
+     if(isnext) {
+          $("div.dotstyle li").removeClass("current");
+          $('div.dotstyle li:contains(' + pagenum + ')').toggleClass("current");
 
-     $("img.work").css("transform", 'translate(-100%)');
-     $("div.work").css("transform", 'translate(100%)');
-     $("img.work").css("opacity", '0');
-     $("div.work").css("opacity", '0');
+          $("img.work").css("transform", 'translate(-100%)');
+          $("div.work").css("transform", 'translate(100%)');
+          $("img.work").css("opacity", '0');
+          $("div.work").css("opacity", '0');
 
-     setTimeout(function () {
-          page(pagenum); }, 2100);
-})
+          setTimeout(function () {
+               page(pagenum); }, 2100);
+     }
+});
+
+$(window).on('swiperight', function (event) {
+               console.log(pagenum);
+
+     var isnext = false;
+
+     if(pagenum < work.length - 1) {
+          pagenum += 1;
+          isnext = true;
+     }
+     
+     if(isnext) {
+          $("div.dotstyle li").removeClass("current");
+          $('div.dotstyle li:contains(' + pagenum + ')').toggleClass("current");
+
+          $("img.work").css("transform", 'translate(-100%)');
+          $("div.work").css("transform", 'translate(100%)');
+          $("img.work").css("opacity", '0');
+          $("div.work").css("opacity", '0');
+
+          setTimeout(function () {
+               page(pagenum); }, 2100);
+     }
+});
