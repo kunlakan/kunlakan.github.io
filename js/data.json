@@ -164,10 +164,32 @@
      ],
      "about": {
           "picture": "image/Me.jpg",
-          "head": "I'm a Software Developer from Seattle, WA, with a passion for design.",
-          "description": "I am passionate in developing softwares or tools that make lives of others better and giving them a deeper connection to technology. When I am not coding, I love to ice skate, dance, and eat a lot of chocolate ♥<br>",
+          "head": "KUNLAKAN CHERDCHUSILP",
+          "description": "I am passionate in developing softwares or tools that make lives of others better and giving them a deeper connection to technology. When I am not coding, I love to dance, use my creativity, and eat a lot of chocolate ♥<br>",
           "linkedin": "https://www.linkedin.com/in/kunlakan",
           "resume": "media/Resume.pdf",
-          "email": "kunlakan (at) uw.edu"
+          "email": "kunlakan (at) uw.edu",
+          "hobbie": [
+               {
+                    "name": "Cover Dancing",
+                    "img": "image/hobby/Dancing.png"
+               },
+               {
+                    "name": "Gaming",
+                    "img": "image/hobby/Gaming.png"
+               },
+               {
+                    "name": "Video Editing",
+                    "img": "image/hobby/Video_Editing.png"
+               },
+               {
+                    "name": "Photo Editing",
+                    "img": "image/hobby/Photo_Editing.png"
+               },
+               {
+                    "name": "Ice Figure Skating",
+                    "img": "image/hobby/Figure_Skating.png"
+               }
+          ]
      }
 }

@@ -176,6 +176,17 @@ div.logo
     padding-left: 10px;
 }
 
+img.hobbie {
+     width: 25px;
+}
+
+div.hobbie{
+     text-transform: uppercase;
+     font-size: 10px;
+     text-align: center;
+     margin-top: 10px;
+}
+
 /*================================ PAGE DOTS ================================*/
 .dotstyle
 {
@@ -268,10 +279,6 @@ div.logo
      width: 100%;
      border-radius: 50%;
      text-align: center;
-     
-     -webkit-filter: grayscale(0);
-     filter: grayscale(0);
-
 }
 
 .sns{
