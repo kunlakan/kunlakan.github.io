@@ -20,7 +20,7 @@ function page(pagenum) {
      str += "</h2></div><div id='des'>" +
             work[pagenum].description + "<br>";
 
-     if (work[pagenum].skill.length > pagenum) {
+     if (work[pagenum].skill.length > 0) {
           str += "<br><div>";
           
           work[pagenum].skill.forEach(function (skillname) {

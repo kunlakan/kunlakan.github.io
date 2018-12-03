@@ -116,49 +116,49 @@
                "name": "Are You A Potato Drawer?",
                "image": "image/Work_AreYouAPotatoDrawer.png",
                "site": "https://github.com/kunlakan/Are-You-A-Potato-Drawer",
-               "description": "is a program/game that recognizes shapes drawn by the user by using computer vision techniques. I served as a lead developer designing and implementing the shape detector element that detects 8 different geometric shapes and 3 basic shapes (such as heart, starts, and thunderbolts).",
+               "description": "a program/game that recognizes shapes drawn by the user by using computer vision techniques. I served as a lead developer designing and implementing the shape detector element that detects 8 different geometric shapes and 3 basic shapes (such as heart, starts, and thunderbolts).",
                "skill": ["C++", "OpenCV"]
           }, 
          {
                "name": "Crow Invaders",
                "image": "image/Word_CrowInvaders.jpg",
                "site": "https://docs.google.com/document/d/13w97YHEIYnr6R1KlIY3UkyJRd6FQ1nad1mHw2slVApI/",
-               "description": "is a recreation of Space Invadres with the University of Washington, Bothell, theme developed by a team of students. I served as analyst and architect who was responsible for designing necessary architectures for the project such as wireframes, use case diagrams/descriptions, activity diagrams, data flow diagrams, robustness diagrams, and etc.",
+               "description": "a recreation of Space Invadres with the University of Washington, Bothell, theme developed by a team of students. I served as analyst and architect who was responsible for designing necessary architectures for the project such as wireframes, use case diagrams/descriptions, activity diagrams, data flow diagrams, robustness diagrams, and etc.",
                "skill": ["Word Processor", "Photoshop", "draw.io"]
           }, 
           {
                "name": "Farm House",
                "image": "image/Work_FramSim.png",
                "site": "https://github.com/kunlakan/Farm-House",
-               "description": "is a 3D world and simulation that I and a few friends created for a bit of fun. The theme was a modern house in a farmland, inspired by <a href='http://www.inouesatoru.jp/221/' target='_blank'>雲海に浮かぶ箱舟</a>. I was responsible for 3D modeling the house, animating and creating features of the house, and as well implementing gaming control.",
+               "description": "a 3D world and simulation that I and a few friends created for a bit of fun. The theme was a modern house in a farmland, inspired by <a href='http://www.inouesatoru.jp/221/' target='_blank'>雲海に浮かぶ箱舟</a>. I was responsible for 3D modeling the house, animating and creating features of the house, and as well implementing gaming control.",
                "skill": ["C#", "Unity", "SketchUp", "Photoshop"]
           }, 
           {
                "name": "Disassembler",
                "image": "image/Work_Disassembler.png",
                "site": "https://github.com/kunlakan/Disassembler",
-               "description": "is a program that translates machine language into assembly language. I served as a developer who designed and developed 30 instructions decoders, the project leader for team by developing project plans, scheduling regular team meetings, and monitoring progress along with tracking task-completion, and a tester by created test cases, tested the software, and constantly updated testing reports.",
+               "description": "a program that translates machine language into assembly language. I served as a developer who designed and developed 30 instructions decoders, the project leader for team by developing project plans, scheduling regular team meetings, and monitoring progress along with tracking task-completion, and a tester by created test cases, tested the software, and constantly updated testing reports.",
                "skill": ["68000 Assembly Language", "EASy68K"]
           }, 
           {
                "name": "UW IAS",
                "image": "image/Work_HealthApp.png",
                "site": "",
-               "description": "is an iPhone health application that analyzes users’ stress level. Worked with a research team that focuses on Mobile Health Application. I was responsible for doing a research about UX/UI for health application smartphone and PDAs, and as well studying objective-c programming language in order to implement the interface for the application.",
+               "description": "an iPhone health application that analyzes users’ stress level. Worked with a research team that focuses on Mobile Health Application. I was responsible for doing a research about UX/UI for health application smartphone and PDAs, and as well studying objective-c programming language in order to implement the interface for the application.",
                "skill": ["Objective-C"]
           }, 
           {
                "name": "BigTree Resort Official Website",
                "image": "image/Work_BigTree.png",
                "site": "",
-               "description": "is an official website for BigTree Resort, which is owned by my family in Kamphaeng Phet, Thailand. I alone designed and implemented the site to display all important necessary information about the resort and as well online room reservation service that send reservation information directly to the hotel receptionist through e-mail.",
+               "description": "an official website for BigTree Resort, which is owned by my family in Kamphaeng Phet, Thailand. I alone designed and implemented the site to display all important necessary information about the resort and as well online room reservation service that send reservation information directly to the hotel receptionist through e-mail.",
                "skill": ["HTML", "CSS", "javaScript", "PHP", "Photoshop"]
           },
           {
                "name": "HPBE+",
                "image": "image/Work_hpbpositive.png",
                "site": "",
-               "description": "is a fan forum dedicated Hello! Project members, but not limited to other Japanese bands and groups in any music genre. It is a place for fans to share news and talk about their favorite idols. I was one of the administrators who responsible for designing, implementing, and maintaining the interface of the forum.",
+               "description": "a fan forum dedicated Hello! Project members, but not limited to other Japanese bands and groups in any music genre. It is a place for fans to share news and talk about their favorite idols. I was one of the administrators who responsible for designing, implementing, and maintaining the interface of the forum.",
                "skill": ["HTML", "CSS", "javaScript", "PHP", "Photoshop", "Branding"]
           }
      ],
