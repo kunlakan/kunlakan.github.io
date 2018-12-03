@@ -275,12 +275,18 @@ div.hobbie{
      display: inline-block;
 }
 
-.myphoto{
-     width: 100%;
+img.myphoto{
+     width: 150px;
      border-radius: 50%;
-     text-align: center;
+     margin-right: 20px;
+     float: right;
 }
 
+div.myphoto
+{
+     overflow: hidden;
+
+}
 .sns{
      width: 30px;
      height: 30px;
