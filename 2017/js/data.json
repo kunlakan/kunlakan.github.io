@@ -116,13 +116,6 @@
      ],
      "work": [
           {
-               "name": "Personal Portfolio Website 2017",
-               "image": "image/Work_Web2017.png",
-               "site": "kunlakan.github.io",
-               "description": "is my personal portfolio website containing my past working experiences, projects, and educations with brief descriptions. The website was designed and created - including user interface, layouts, graphics, and all of its features - by myself during 2016 - 2017 from sctaches. It was created with flexibility in mind so that it works well with any devices or platforms",
-               "skill": ["HTML", "CSS", "JavaScript", "JQuery", "JSON"]
-          }, 
-          {
                "name": "Are You A Potato Drawer?",
                "image": "image/Work_AreYouAPotatoDrawer.png",
                "site": "https://github.com/kunlakan/Are-You-A-Potato-Drawer",

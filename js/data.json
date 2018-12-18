@@ -114,9 +114,9 @@
      "work": [
           {
                "name": "Personal Website/Portfolio V1",
-               "image": "image/Work_PersonalWebsite.png",
+               "image": "image/Work_Web2017.png",
                "site": "http://kunlakan.github.io/2017",
-               "description": "the very first version of my personal website that used to showcase my works and experieces. It is a side project that allows me to use web development skills I selftaught and as well to express my creativity and my love in designing.",
+               "description": "the very first version of my personal website that used to showcase my works and experieces. It allows me to use web development skills I selftaughted and as well to express my creativity and my love in designing.", 
                "skill": ["HTML,", "CSS,", "JavaScript", "Jquery", "JSON", "Bootstrap", "Photoshop"]
           }, 
           {
