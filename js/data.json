@@ -113,6 +113,13 @@
      ],
      "work": [
           {
+               "name": "Personal Website/Portfolio V1",
+               "image": "image/Work_PersonalWebsite.png",
+               "site": "http://kunlakan.github.io/2017",
+               "description": "the very first version of my personal website that used to showcase my works and experieces. It is a side project that allows me to use web development skills I selftaught and as well to express my creativity and my love in designing.",
+               "skill": ["HTML,", "CSS,", "JavaScript", "Jquery", "JSON", "Bootstrap", "Photoshop"]
+          }, 
+          {
                "name": "Are You A Potato Drawer?",
                "image": "image/Work_AreYouAPotatoDrawer.png",
                "site": "https://github.com/kunlakan/Are-You-A-Potato-Drawer",
@@ -183,7 +190,7 @@
                     "img": "image/hobby/Video_Editing.png"
                },
                {
-                    "name": "Photo Editing",
+                    "name": "Graphic Design",
                     "img": "image/hobby/Photo_Editing.png"
                },
                {
