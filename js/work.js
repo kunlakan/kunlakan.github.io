@@ -37,7 +37,7 @@ function page(pagenum) {
           $("img.work").css("transform", 'translate(0%)');
           $("div.work").css("transform", 'translate(0%)');
           $("img.work").css("opacity", '1');
-          $("div.work").css("opacity", '1'); }, 300);
+          $("div.work").css("opacity", '1'); }, 200);
 }
 
 jQuery.getJSON("js/data.json", function (data) {
@@ -46,9 +46,8 @@ jQuery.getJSON("js/data.json", function (data) {
      work = data.work;
      
      var str = "<ul>";
-     var i;
-     
-     for (i = 0; i < work.length; i += 1) {
+
+     for (var i = 0; i < work.length; i += 1) {
           if (i === 0) {
                str += "<li class='current'><a href='#'>" + i + "</a></li>";
           } else {
@@ -65,17 +64,23 @@ jQuery.getJSON("js/data.json", function (data) {
 $("div.dotstyle").on('click', 'li', function () {
      "use strict";
      
-     pagenum = $(this).text();
-     $("div.dotstyle li").removeClass("current");
-     $(this).toggleClass("current");
+     var newPagenum = $(this).text();
      
-     $("img.work").css("transform", 'translate(-100%)');
-     $("div.work").css("transform", 'translate(100%)');
-     $("img.work").css("opacity", '0');
-     $("div.work").css("opacity", '0');
-     
-     setTimeout(function () {
-          page(pagenum); }, 2100);
+     if(newPagenum != pagenum)
+     {
+          $("div.dotstyle li").removeClass("current");
+          $(this).toggleClass("current");
+
+          $("img.work").css("transform", 'translate(-100%)');
+          $("div.work").css("transform", 'translate(100%)');
+          $("img.work").css("opacity", '0');
+          $("div.work").css("opacity", '0');
+
+          setTimeout(function () {
+               page(pagenum); }, 1500);
+          
+          pagenum = newPagenum;
+     }
 });
 
 $(window).bind('wheel', function (event) {
@@ -104,7 +109,7 @@ $(window).bind('wheel', function (event) {
           $("div.work").css("opacity", '0');
 
           setTimeout(function () {
-               page(pagenum); }, 2100);
+               page(pagenum); }, 1500);
      }
 });
 
@@ -128,6 +133,6 @@ $(window).on('swiperight', function (event) {
           $("div.work").css("opacity", '0');
 
           setTimeout(function () {
-               page(pagenum); }, 2100);
+               page(pagenum); }, 1500);
      }
 });

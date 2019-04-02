@@ -12,7 +12,7 @@ jQuery.getJSON("js/data.json", function (data) {
 
 $("iframe").attr("src", "main.html");
 
-$("#footer").append("&copy; 2016 - 2018 Kunlakan Cherdchusilp");
+$("#footer").append("&copy; 2016 - 2019 Kunlakan Cherdchusilp");
 
 
 /*================================= EFFECTS =================================*/
