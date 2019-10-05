@@ -12,7 +12,7 @@
               "area": "Bothell, WA",
               "logo": "image/Logo_UW.png",
               "site": "https://washington.edu",
-              "course": ["Technical Writing for Computing Professionals", "Programming Issues with Object-Oriented Languages (C++)", "Data Structures, Algorithms, and Discrete Mathematics I (C++)", "Data Structures, Algorithms, and Discrete Mathematics II (C++)", "Management Principles", "Software Engineering", "Analysis and Design", "Hardware and Computer Organization", "Operating Systems", "3-D Computer Graphic", "Database Systems", "Bioinformatics", "Computer Vision", "K-12 Computing Education", "Fundamentals of Web Media Technology", "Fundamentals of Modern Mathematics", "Matrix Algebra", "Multivariable Calculus"],
+              "course": ["Technical Writing for Computing Professionals", "Programming Issues with Object-Oriented Languages (C++)", "Data Structures, Algorithms, and Discrete Mathematics I (C++)", "Data Structures, Algorithms, and Discrete Mathematics II (C++)", "Management Principles", "Software Engineering", "Analysis and Design", "Hardware and Computer Organization", "Operating Systems", "3-D Computer Graphic", "Database Systems", "Bioinformatics", "Computer Vision", "K-12 Computing Education", "Fundamentals of Modern Mathematics", "Matrix Algebra", "Multivariable Calculus"],
               "honor": ["Dean's List, Winter 2015 - Fall 2016"]
           }, 
           {
