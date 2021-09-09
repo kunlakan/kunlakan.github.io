@@ -1,0 +1,26 @@
+.ButtonR
+{
+    width: 39px;
+    height: 39px;
+}
+
+.ButtonGapL
+{
+    width: 5px;
+    height: 0px;
+    display: inline-block;
+}
+
+.ButtonGapR
+{
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+}
+
+button
+{
+    background-color: transparent;
+    padding: 0px;
+    border: none;
+}

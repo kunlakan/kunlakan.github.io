@@ -1,0 +1,21 @@
+.Screen
+{
+    background-color: white;
+    width: 480px;
+    height: 272px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ControllerL
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ControllerR
+{
+    display: inline-block;
+    vertical-align: middle;
+}
